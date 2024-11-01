@@ -26,7 +26,7 @@ class SMS:
             res = self.client.send_sms(request=req)
             data = res.to_map()
             if data['statusCode'] >= 200 and data['statusCode'] < 300 and data[
-                    'body']['code'] == 'OK':
+                    'body']['Code'] == 'OK':
                 return None
             return data['body']['Message']
         except Exception as e:
