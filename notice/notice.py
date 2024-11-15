@@ -1,6 +1,6 @@
-from lark import Lark
-from sms import SMS
-from voice import Voice
+from .lark import Lark
+from .sms import SMS
+from .voice import Voice
 import json
 from dotenv import dotenv_values
 

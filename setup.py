@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="notice_py",
-    version="0.1.4",
+    version="0.1.6",
     author="zefzhou44",
     author_email="zefzhou44@gmail.com",
     description="lark/sms/voice notice package",
