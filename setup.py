@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="notice_py",
-    version="0.1.2",
+    version="0.1.3",
     author="zefzhou44",
     author_email="zefzhou44@gmail.com",
     description="lark/sms/voice notice package",
@@ -17,6 +17,7 @@ setup(
     ],
     python_requires=">=3.9.0",
     install_requires=[
-        "requests", "alibabacloud_dysmsapi20170525", "tenacity", "dotenv"
+        "requests", "alibabacloud_dysmsapi20170525", "tenacity",
+        "python-dotenv"
     ],
 )
